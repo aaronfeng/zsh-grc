@@ -1,0 +1,5 @@
+if [ "$TERM" != dumb ] && [ -n "$GRC" ]
+then
+    alias colourify="$GRC -es --colour=auto"
+    alias ps='colourify ps'
+fi
